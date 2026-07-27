@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+     display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: white;
+    width:90%;
+    max-width:1700px;
+    margin:15px auto;
+    
+}
+.nav-links ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:#695f5f;
+    font-size:22px;
+    font-weight:500;
+    transition:.3s;
+}
+.common-btn{
+    text-decoration:none;
+    background:#1463da;
+    color:#fff;
+    font-size: 20px;
+    padding:12px 24px;
+    border-radius:6px;
+    font-weight:600;
+
+}
