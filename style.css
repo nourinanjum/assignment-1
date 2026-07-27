@@ -34,3 +34,26 @@
     font-weight:600;
 
 }
+.hero-section{
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-size:50px ;
+}
+.hero-section h1{
+  padding-top: 300px;
+  padding-bottom: 10px;
+}
+.hero-section h1 span{
+    font-style: italic;
+}
+.hero-section p{
+    font-size: 30px;
+    padding: 10px 600px;
+    margin-bottom: 400px;
+}
